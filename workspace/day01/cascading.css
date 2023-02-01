@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+html body p#banana {/* html body는 안써도 되지만 쓰면 구체적이기 때문에 우선순위가 높아진다 */
+    color: yellow !important;
+}
