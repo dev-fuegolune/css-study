@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            position: relative;
+            height: 24px;
+            /* 원래 위치 기준으로 상대적인 위치 */
+        }
+        #cookie{
+            background-color: lightpink;
+            z-index: 1; 
+            /* 우선순위-크기가 클수록 먼저 나타난다.ex)이마트배너 */
+        }
+        #scorn{
+            background-color: wheat;
+            top: -24px;
+            z-index: 2;
+        }
+        #coffee{
+            background-color: saddlebrown;
+            top: -48px;
+        }
+        #icecream{
+            background-color: darkgoldenrod;
+            top: -72px;
+        }
+        #cake{
+            background-color: deepskyblue;
+            top: -96px;
+        }
+    </style>
+</head>
+<body>
+    <div id="cookie">
+        <span>쿠키</span>
+    </div>
+    <div id="scorn">
+        <span>스콘</span>
+    </div>
+    <div id="coffee">
+        <span>커피</span>
+    </div>
+    <div id="icecream">
+        <span>아이스크림</span>
+    </div>
+    <div id="cake">
+        <span>케이크</span>
+    </div>
+</body>
+</html>
